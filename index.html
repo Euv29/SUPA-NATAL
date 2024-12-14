@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Dias De SupaNatal</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/font/stylesheet.css">
+</head>
+
+<body class="bg-black text-white">
+    <!-- Loader -->
+    <div id="loader" class="flex flex-col justify-center items-center gap-5 h-screen">
+        <section class="flex flex-col gap-5 loader-group">
+            <div class="flex flex-col items-center font-extrabold text-3xl supanatal">
+                <img width="160px" src="img/supa gift box png.png" alt="">
+                <a id="natalColor">SUPA NATAL</a>
+            </div>
+            <div class="flex justify-center items-center loader">Carregando...</div>
+        </section>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden fade-in">
+        <header class="flex items-center p-4">
+            <a href=""><img src="img/logo.png" width="120px" alt=""></a>
+        </header>
+        <section id="presentes" class="w-full presentes">
+            <section id="main" class="flex flex-col gap-5">
+                <section class="loader-group">
+                    <div class="font-extrabold text-3xl supanatal"><a class="text-blue-500">10</a> DIAS DE <br> <a
+                            id="natalColor">SUPA NATAL</a></div>
+                </section>
+                <p class="text-center">A cada dia, de <b>16</b> à <b>25</b>, Dez presentes misteriosos para cada Supa
+                    participante</p>
+
+                <section class="presentes">
+                    <section class="gap-2 pt-4 pb-4 presente-group">
+                        <!-- Cards will be generated here -->
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section id="formulario" class="hidden fade-in formulario">
+            <section class="flex md:flex-row flex-col pt-40 w-full">
+                <section class="flex flex-col items-center gap-5 px-4 md:px-20 w-full md:w-1/2">
+                    <section class="flex flex-col items-center w-full md:w-1/2 loader-group">
+                        <div class="font-extrabold text-3xl supanatal"><a class="text-blue-500">10</a> DIAS DE <br> <a
+                                id="natalColor">SUPA NATAL</a></div>
+                    </section>
+                    <section class="flex flex-col gap-5">
+                        <p>A cada dia, 1 presente misterioso para cada Supa participante</p>
+                        <p>
+                            De 16 à 25 de Dezembro Abilite-se a ganhar um presente da Supa-Serviços, A cada dia abre 1
+                            presente, vai poder reservar e entrar na lista de espera. Mas para vencer precisa cumprir
+                            com
+                            algumas regras.
+                        </p>
+                        <p>
+                            <b>Regras:</b><br>
+                            1. Preencher o formulário <br>
+                            2. Seguir as páginas
+                        </p>
+                        <p>
+                        <ul class="flex md:flex-row flex-col flex-wrap justify-center items-center gap-2">
+                            <li><a href="">GeoStore</a></li>
+                            <li>
+                                <div class="md:flex hidden bg-slate-50 rounded-xl w-1 h-1"></div>
+                            </li>
+                            <li><a href="">BlackProductions</a></li>
+                            <li>
+                                <div class="md:flex hidden bg-slate-50 rounded-xl w-1 h-1"></div>
+                            </li>
+                            <li><a href="">Rochita Burger</a></li>
+                            <li>
+                                <div class="md:flex hidden bg-slate-50 rounded-xl w-1 h-1"></div>
+                            </li>
+                            <li><a href="">OD Onlivendas</a></li>
+                            <li>
+                                <div class="md:flex hidden bg-slate-50 rounded-xl w-1 h-1"></div>
+                            </li>
+                            <li><a href="">Maria&Maria Spa</a></li>
+                        </ul>
+                        </p>
+                    </section>
+                    <a href="#" id="voltar" class="text-blue-500 underline">Voltar</a>
+                </section>
+                <section class="flex w-full md:w-1/2 h-[130vh] md:h-[160vh]">
+                    <iframe width="100%"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSf9jFbizH7u_A3HdPuBJKHgFrRwlJfV4KnysDi_6OvF6ZR1mQ/viewform?embedded=false"
+                        frameborder="0" marginheight="0" marginwidth="0">
+                        A carregar…
+                    </iframe>
+                </section>
+            </section>
+        </section>
+        <footer class="flex flex-col justify-center items-center gap-4 p-4">
+            <section>
+                <ul class="flex md:flex-row flex-col justify-center items-center gap-2">
+                    <li><a href="">Presentes</a></li>
+                    <li>
+                        <div class="md:flex hidden bg-slate-50 rounded-xl w-1 h-1"></div>
+                    </li>
+                    <li><a href="">instagram</a></li>
+                    <li>
+                        <div class="md:flex hidden bg-slate-50 rounded-xl w-1 h-1"></div>
+                    </li>
+                    <li><a href="">facebook</a></li>
+                    <li>
+                        <div class="md:flex hidden bg-slate-50 rounded-xl w-1 h-1"></div>
+                    </li>
+                    <li><a href="mailto:geral@supa-servicos.com">geral@supa-servicos.com</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul class="flex flex-row justify-center items-center gap-2">
+                    <li>By <a href="" id="supaLogo">Supa Serviços</a></li>
+                    <li>|</li>
+                    <li>Todos os direitos reservados</li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+
+    <script>
+        // Wait for 5 seconds before showing the main content
+        setTimeout(() => {
+            document.getElementById('loader').classList.add('fade-out');
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+                document.getElementById('main-content').classList.remove('hidden');
+                document.getElementById('main-content').classList.add('show');
+            }, 1000); // Match this duration with the transition duration
+        }, 3000);
+
+        // Add event listener to "Reservar" link for smooth section transition
+        document.addEventListener('click', function (event) {
+            if (event.target && event.target.id === 'reservar') {
+                event.preventDefault();
+                document.getElementById('presentes').classList.add('fade-out');
+                setTimeout(() => {
+                    document.getElementById('presentes').classList.add('hidden');
+                    document.getElementById('presentes').classList.remove('fade-out');
+                    document.getElementById('formulario').classList.remove('hidden');
+                    document.getElementById('formulario').classList.add('show');
+                }, 1000); // Match this duration with the transition duration
+            }
+        });
+
+        // Add event listener to "Voltar" link for smooth section transition
+        document.getElementById('voltar').addEventListener('click', function (event) {
+            event.preventDefault();
+            document.getElementById('formulario').classList.add('fade-out');
+            setTimeout(() => {
+                document.getElementById('formulario').classList.add('hidden');
+                document.getElementById('formulario').classList.remove('fade-out');
+                document.getElementById('presentes').classList.remove('hidden');
+                document.getElementById('presentes').classList.add('show');
+            }, 1000); // Match this duration with the transition duration
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

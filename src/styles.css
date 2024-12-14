@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Univia Pro';
+    src: url('../src/font/UniviaPro-UltraItalic.eot'); /* IE9 Compat Modes */
+    src: url('../src/font/UniviaPro-UltraItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../src/font/UniviaPro-UltraItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../src/font/UniviaPro-UltraItalic.woff') format('woff'), /* Modern Browsers */
+         url('../src/font/UniviaPro-UltraItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../src/font/UniviaPro-UltraItalic.svg#UniviaPro-UltraItalic') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Univia Pro', sans-serif !important;
+}
+
+/* Scroll Style */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    cursor: url('/assets/img/cursor.svg'), auto;
+    /* background: #252525; */
+    background: -webkit-linear-gradient(45deg, #2444FF, #24C4FF);
+    border-radius: 5px;
+    animation: changeColor 6s linear infinite;
+}
+
+p{
+    @apply text-center text-white;
+}
+
+ul a:hover{
+    transition: all .2s linear;
+    color: #021897;
+}
+
+.hidden { display: none; }
+.fade-out {
+    opacity: 0;
+    transition: opacity 3s ease-out;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.fade-in.show {
+    opacity: 1;
+}
+
+#natalColor{
+    background: linear-gradient(to right, #ff0000, #8b0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#supaLogo{
+    background: linear-gradient(to right, #2444FF, #24C4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @apply font-bold;
+}
+
+@keyframes supaChangeColor{
+    0%{color: #2444FF;}
+    50%{color: #021897;}
+    100%{color: #0678a1;}
+}
+
+@keyframes processingAnimation {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+.loader-group .loader{
+    height: 1.5rem;
+    @apply rounded-xl w-full; 
+    background: linear-gradient(90deg, #2444FF, #24C4FF);
+    background-size: 200% 100%;
+    animation: processingAnimation 20s ease infinite;
+}
+
+/* Main COntent */
+#main{
+    @apply flex flex-col items-center pt-2;
+    min-height: 100vh;
+}
+
+/* Presente */
+.presentes{
+    @apply w-full;
+}
+
+.presente-group{
+    @apply flex flex-wrap justify-center items-center pl-2 w-full;
+}
+.presente-card{
+    @apply flex flex-col gap-[0.5] m-1 md:m-2;
+}
+
+.presente-card .img {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 200px; /* Ajuste conforme necessário */
+    position: relative;
+}
+
+.presente-card .img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.presente-card .img .exclusivo{
+    @apply relative top-0 right-0 justify-center items-center p-1 rounded-xl w-[6rem] font-bold text-center;
+    background: linear-gradient(to right, #2444FF, #24C4FF);
+}
+
+.presente-card .info{
+    @apply flex flex-col justify-between p-2 pl-1 w-full;
+}
+
+.info .title{
+    @apply font-bold;
+}
+
+.info .description{
+    @apply text-sm;
+}
+
+.presente-card .btn{
+    text-decoration: none;
+    background-color: #2444FF;
+    @apply flex justify-center items-center rounded-xl w-full h-11 font-bold text-center text-white;
+}
+
+.presente-card.type-card-default .btn:hover{
+    transition: all .2s linear;
+    background: linear-gradient(to right, #2444FF, #24C4FF);
+}
+
+/* Crard Type */
+.presente-card.type-card-esgotado .img
+{
+    border: solid 1px #ff0000;
+}
+
+.presente-card.type-card-esgotado  .img .exclusivo{
+    @apply relative top-0 right-0 justify-center items-center p-1 rounded-xl w-[6rem] font-bold text-center;
+    background: linear-gradient(to right, #ff0000, #8b0000);
+}
+
+.presente-card.type-card-esgotado .btn {
+    text-decoration: none;
+    background: transparent;
+    border: solid 1px #ff0000;
+    color: #ff0000;
+    @apply flex justify-center items-center rounded-xl w-full h-11 font-bold text-center;
+}
+
+.presente-card.type-card-esgotado .btn:hover {
+    transition: all .2s linear;
+    background-color: #8b000031;
+}
+
+.presente-card.type-card-indisponivel .img {
+    border: solid 1px #2444FF;
+}
+
+.presente-card.type-card-indisponivel .img .exclusivo {
+    @apply relative top-0 right-0 justify-center items-center p-1 rounded-xl w-[6rem] font-bold text-center;
+    background: transparent;
+    border: solid 1px #2444FF;
+}
+
+.presente-card.type-card-indisponivel .btn {
+    text-decoration: none;
+    background: transparent;
+    border: solid 1px #2444FF;
+    color: #2444FF;
+    @apply flex justify-center items-center rounded-xl w-full h-11 font-bold text-center;
+}
+
+.presente-card.type-card-indisponivel .btn:hover {
+    transition: all .2s linear;
+    background-color: #2444FF31;
+}
+
+.countdown {
+    font-size: 0.875rem;
+    color: #ff0000;
+}
