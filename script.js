@@ -1,6 +1,6 @@
 const presentes = [
     {
-        nome: '10 Hambúrgueres grátis ',
+        nome: '10 Hambúrgueres',
         dataInicio: new Date('2024-12-17T00:00:00+01:00'),
         dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
@@ -8,7 +8,7 @@ const presentes = [
         img: 'img/presentes/burger.jpeg'
     },
     {
-        nome: 'Victoria’s Secret Velvet Petals',
+        nome: 'Victoria’s Secret Kit',
         dataInicio: new Date('2024-12-17T00:00:00+01:00'),
         dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,

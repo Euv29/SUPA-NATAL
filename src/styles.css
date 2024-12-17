@@ -137,11 +137,11 @@ ul a:hover{
 }
 
 .info .title{
-    @apply font-bold;
+    @apply font-bold md:text-lg text-sm;
 }
 
 .info .description{
-    @apply text-sm;
+    @apply md:text-sm text-xs;
 }
 
 .presente-card .btn{
