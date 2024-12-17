@@ -1,27 +1,27 @@
 const presentes = [
     {
-        nome: 'Presente 1',
+        nome: '10 Hambúrgueres grátis ',
         dataInicio: new Date('2024-12-17T00:00:00+01:00'),
         dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 1',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'by: Rochita Burguer',
+        img: 'img/presentes/burger.jpeg'
     },
     {
-        nome: 'Presente 2',
+        nome: 'Victoria’s Secret Velvet Petals',
         dataInicio: new Date('2024-12-17T00:00:00+01:00'),
         dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 2',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'by: Milly Care Store',
+        img: 'img/presentes/kit.jpeg'
     },
     {
-        nome: 'Presente 3',
+        nome: 'Bolo de Natal Familiar',
         dataInicio: new Date('2024-12-17T00:00:00+01:00'),
         dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 3',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'by: Idelicious',
+        img: 'img/presentes/bolo.jpeg'
     },
     {
         nome: 'Presente 4',
