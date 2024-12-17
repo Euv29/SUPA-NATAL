@@ -16,7 +16,7 @@ const presentes = [
         img: 'img/presentes/kit.jpeg'
     },
     {
-        nome: 'Bolo de Natal Familiar',
+        nome: 'Bolo de Natal',
         dataInicio: new Date('2024-12-17T00:00:00+01:00'),
         dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
