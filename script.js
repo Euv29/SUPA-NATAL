@@ -1,8 +1,8 @@
 const presentes = [
     {
         nome: 'Presente 1',
-        dataInicio: new Date('2024-12-16T00:00:00+01:00'),
-        dataFim: new Date('2024-12-16T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
+        dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
         descricao: 'Descrição do Presente 1',
         img: 'img/presentes/presente-1.jpg'
@@ -17,64 +17,64 @@ const presentes = [
     },
     {
         nome: 'Presente 3',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
+        dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
         descricao: 'Descrição do Presente 3',
         img: 'img/presentes/presente-1.jpg'
     },
     {
         nome: 'Presente 4',
-        dataInicio: new Date('2024-12-19T00:00:00+01:00'),
-        dataFim: new Date('2024-12-19T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
+        dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
         descricao: 'Descrição do Presente 4',
         img: 'img/presentes/presente-1.jpg'
     },
     {
         nome: 'Presente 5',
-        dataInicio: new Date('2024-12-20T00:00:00+01:00'),
-        dataFim: new Date('2024-12-20T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
+        dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
         descricao: 'Descrição do Presente 5',
         img: 'img/presentes/presente-1.jpg'
     },
     {
         nome: 'Presente 6',
-        dataInicio: new Date('2024-12-21T00:00:00+01:00'),
-        dataFim: new Date('2024-12-21T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
+        dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
         descricao: 'Descrição do Presente 6',
         img: 'img/presentes/presente-1.jpg'
     },
     {
         nome: 'Presente 7',
-        dataInicio: new Date('2024-12-22T00:00:00+01:00'),
-        dataFim: new Date('2024-12-22T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
+        dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
         descricao: 'Descrição do Presente 7',
         img: 'img/presentes/presente-1.jpg'
     },
     {
         nome: 'Presente 8',
-        dataInicio: new Date('2024-12-23T00:00:00+01:00'),
-        dataFim: new Date('2024-12-23T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
+        dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
         descricao: 'Descrição do Presente 8',
         img: 'img/presentes/presente-1.jpg'
     },
     {
         nome: 'Presente 9',
-        dataInicio: new Date('2024-12-24T00:00:00+01:00'),
-        dataFim: new Date('2024-12-24T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
+        dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
         descricao: 'Descrição do Presente 9',
         img: 'img/presentes/presente-1.jpg'
     },
     {
         nome: 'Presente 10',
-        dataInicio: new Date('2024-12-25T00:00:00+01:00'),
-        dataFim: new Date('2024-12-25T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
+        dataFim: new Date('2024-12-17T23:59:59+01:00'),
         disponivel: false,
         descricao: 'Descrição do Presente 10',
         img: 'img/presentes/presente-1.jpg'

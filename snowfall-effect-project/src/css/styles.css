@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+}
+
+#snowfall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow clicks to pass through */
+    z-index: -1; /* Ensure it is behind other content */
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px; /* Start above the viewport */
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    pointer-events: none; /* Allow clicks to pass through */
+}
