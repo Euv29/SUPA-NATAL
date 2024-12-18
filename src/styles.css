@@ -59,7 +59,8 @@ ul a:hover{
 }
 
 #natalColor{
-    background: linear-gradient(to right, #ff0000, #8b0000);
+    /* background: linear-gradient(to right, #ff0000, #8b0000); */
+    background: linear-gradient(to right, #2444FF, #24C4FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

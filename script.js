@@ -1,84 +1,92 @@
 const presentes = [
     {
-        nome: '10 Hambúrgueres',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
+        nome: 'Apple Airpods 3th G.',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'by: Rochita Burguer',
-        img: 'img/presentes/burger.jpeg'
-    },
-    {
-        nome: 'Victoria’s Secret Kit',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
-        disponivel: false,
-        descricao: 'by: Milly Care Store',
-        img: 'img/presentes/kit.jpeg'
+        descricao: 'by: OD Onlivendas & Okenio M',
+        img: 'img/presentes/airpods.jpeg'
     },
     {
         nome: 'Bolo de Natal',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Idelicious',
         img: 'img/presentes/bolo.jpeg'
     },
     {
-        nome: 'Presente 4',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
+        nome: 'Nike Dunk Low',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 4',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'by: Geo Store',
+        img: 'img/presentes/dack.jpeg'
     },
     {
-        nome: 'Presente 5',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
+        nome: 'Dia de Spa',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 5',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'By: Txia Mi',
+        img: 'img/presentes/spa.jpeg'
     },
     {
-        nome: 'Presente 6',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
+        nome: '10 Hambúrgueres',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 6',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'by: Rochita Burguer',
+        img: 'img/presentes/burger.jpeg'
     },
     {
-        nome: 'Presente 7',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
+        nome: '1 mês Netlix',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 7',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'by: Xofela e Aires',
+        img: 'img/presentes/netflix.jpeg'
+    }, 
+    {
+        nome: '12GB Grátis',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        disponivel: false,
+        descricao: 'by: Supinha',
+        img: 'img/presentes/12g.jpeg'
     },
     {
-        nome: 'Presente 8',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
+        nome: 'Conjunto Feminino',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 8',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'by: Zeana',
+        img: 'img/presentes/conjunto.jpeg'
     },
     {
-        nome: 'Presente 9',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
+        nome: 'Jantar a 2 + Buquê',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 9',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'by: DaWeddy',
+        img: 'img/presentes/encontro.jpeg'
     },
     {
-        nome: 'Presente 10',
-        dataInicio: new Date('2024-12-17T00:00:00+01:00'),
-        dataFim: new Date('2024-12-17T23:59:59+01:00'),
+        nome: 'Victoria’s Secret Kit',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
         disponivel: false,
-        descricao: 'Descrição do Presente 10',
-        img: 'img/presentes/presente-1.jpg'
+        descricao: 'by: Milly Care Store',
+        img: 'img/presentes/kit.jpeg'
     },
+    {
+        nome: 'Sessão Fotográfica',
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
+        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        disponivel: false,
+        descricao: 'by: Black Productions',
+        img: 'img/presentes/foto.jpeg'
+    },  
 ];
 
 function verificarDisponibilidade() {
