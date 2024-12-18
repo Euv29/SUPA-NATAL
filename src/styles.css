@@ -95,10 +95,10 @@ ul a:hover{
 }
 
 /* Main COntent */
-#main{
+/* #main{
     @apply flex flex-col items-center pt-2;
     min-height: 100vh;
-}
+} */
 
 /* Presente */
 .presentes{
@@ -109,15 +109,15 @@ ul a:hover{
     @apply flex flex-wrap justify-center items-center pl-2 w-full;
 }
 .presente-card{
-    @apply flex flex-col gap-[0.5] m-1 md:m-2;
+    @apply flex flex-col gap-[0.5] m-1 md:m-2 justify-center items-center;
 }
-
+/* 
 .presente-card .img {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     width: 100%;
-    height: 200px; /* Ajuste conforme necessário */
+    height: 200px;
     position: relative;
 }
 
@@ -126,8 +126,8 @@ ul a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
+} */
+/* 
 .presente-card .img .exclusivo{
     @apply relative top-0 right-0 justify-center items-center p-1 rounded-xl w-[6rem] font-bold text-center;
     background: linear-gradient(to right, #2444FF, #24C4FF);
@@ -139,13 +139,16 @@ ul a:hover{
 
 .info .title{
     @apply font-bold md:text-lg text-sm;
-}
+} */
 
 .info .description{
-    @apply md:text-sm text-xs;
+    @apply md:text-xs text-[0.15rem];
+    background: linear-gradient(to right, #2444FF, #24C4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.presente-card .btn{
+/* .presente-card .btn{
     text-decoration: none;
     background-color: #2444FF;
     @apply flex justify-center items-center rounded-xl w-full h-11 font-bold text-center text-white;
@@ -155,8 +158,6 @@ ul a:hover{
     transition: all .2s linear;
     background: linear-gradient(to right, #2444FF, #24C4FF);
 }
-
-/* Crard Type */
 .presente-card.type-card-esgotado .img
 {
     border: solid 1px #ff0000;
@@ -201,9 +202,16 @@ ul a:hover{
 .presente-card.type-card-indisponivel .btn:hover {
     transition: all .2s linear;
     background-color: #2444FF31;
-}
+} */
 
 .countdown {
     font-size: 0.875rem;
-    color: #ff0000;
+    background: linear-gradient(to right, #2444FF, #2444FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+iframe {
+    width: 100%;
+    height: 150vh;
+    border: none;
 }

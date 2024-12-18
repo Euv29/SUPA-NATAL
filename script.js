@@ -2,87 +2,87 @@ const presentes = [
     {
         nome: 'Apple Airpods 3th G.',
         dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataFim: new Date('2024-12-20T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: OD Onlivendas & Okenio M',
         img: 'img/presentes/airpods.jpeg'
     },
     {
         nome: 'Bolo de Natal',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-21T00:00:00+01:00'),
+        dataFim: new Date('2024-12-21T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Idelicious',
         img: 'img/presentes/bolo.jpeg'
     },
     {
         nome: 'Nike Dunk Low',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-22T00:00:00+01:00'),
+        dataFim: new Date('2024-12-22T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Geo Store',
         img: 'img/presentes/dack.jpeg'
     },
     {
         nome: 'Dia de Spa',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-23T00:00:00+01:00'),
+        dataFim: new Date('2024-12-23T23:59:59+01:00'),
         disponivel: false,
         descricao: 'By: Txia Mi',
         img: 'img/presentes/spa.jpeg'
     },
     {
         nome: '10 Hambúrgueres',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-24T00:00:00+01:00'),
+        dataFim: new Date('2024-12-24T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Rochita Burguer',
         img: 'img/presentes/burger.jpeg'
     },
     {
         nome: '1 mês Netlix',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-25T00:00:00+01:00'),
+        dataFim: new Date('2024-12-25T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Xofela e Aires',
         img: 'img/presentes/netflix.jpeg'
     }, 
     {
         nome: '12GB Grátis',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-25T00:00:00+01:00'),
+        dataFim: new Date('2024-12-25T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Supinha',
         img: 'img/presentes/12g.jpeg'
     },
     {
         nome: 'Conjunto Feminino',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-26T00:00:00+01:00'),
+        dataFim: new Date('2024-12-26T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Zeana',
         img: 'img/presentes/conjunto.jpeg'
     },
     {
         nome: 'Jantar a 2 + Buquê',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-27T00:00:00+01:00'),
+        dataFim: new Date('2024-12-27T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: DaWeddy',
         img: 'img/presentes/encontro.jpeg'
     },
     {
         nome: 'Victoria’s Secret Kit',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-28T00:00:00+01:00'),
+        dataFim: new Date('2024-12-28T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Milly Care Store',
         img: 'img/presentes/kit.jpeg'
     },
     {
         nome: 'Sessão Fotográfica',
-        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
-        dataFim: new Date('2024-12-18T23:59:59+01:00'),
+        dataInicio: new Date('2024-12-29T00:00:00+01:00'),
+        dataFim: new Date('2024-12-29T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Black Productions',
         img: 'img/presentes/foto.jpeg'
@@ -127,7 +127,7 @@ function renderizarPresentes() {
         const titleSection = document.createElement('section');
         titleSection.classList.add('title');
         const descriptionSection = document.createElement('section');
-        descriptionSection.classList.add('description');
+        descriptionSection.classList.add('description'); // Certifique-se de que a classe está sendo aplicada
         infoSection.appendChild(titleSection);
         infoSection.appendChild(descriptionSection);
 
