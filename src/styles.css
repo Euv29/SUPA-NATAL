@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Adicione este estilo ao seu arquivo styles.css */
+
 @font-face {
     font-family: 'Univia Pro';
     src: url('../src/font/UniviaPro-UltraItalic.eot'); /* IE9 Compat Modes */
     src: url('../src/font/UniviaPro-UltraItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../src/font/UniviaPro-UltraItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../src/font/UniviaPro-UltraItalic.woff2') format('woff2'), /* Modern Browsers */
          url('../src/font/UniviaPro-UltraItalic.woff') format('woff'), /* Modern Browsers */
          url('../src/font/UniviaPro-UltraItalic.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../src/font/UniviaPro-UltraItalic.svg#UniviaPro-UltraItalic') format('svg'); /* Legacy iOS */
@@ -29,8 +31,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    cursor: url('/assets/img/cursor.svg'), auto;
-    /* background: #252525; */
+    cursor: url('../img/cursor.svg'), auto; /* Corrija o caminho da imagem */
     background: -webkit-linear-gradient(45deg, #2444FF, #24C4FF);
     border-radius: 5px;
     animation: changeColor 6s linear infinite;
@@ -76,6 +77,12 @@ ul a:hover{
     0%{color: #2444FF;}
     50%{color: #021897;}
     100%{color: #0678a1;}
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 @keyframes processingAnimation {

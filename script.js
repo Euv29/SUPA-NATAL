@@ -13,7 +13,7 @@ const presentes = [
         dataFim: new Date('2024-12-21T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Idelicious',
-        img: 'img/presentes/bolo.jpeg'
+        img: 'img/presentes/bolo.webp'
     },
     {
         nome: 'Nike Dunk Low',
@@ -21,7 +21,7 @@ const presentes = [
         dataFim: new Date('2024-12-22T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Geo Store',
-        img: 'img/presentes/dack.jpeg'
+        img: 'img/presentes/dack.webp'
     },
     {
         nome: 'Dia de Spa',
@@ -29,7 +29,7 @@ const presentes = [
         dataFim: new Date('2024-12-23T23:59:59+01:00'),
         disponivel: false,
         descricao: 'By: Txia Mi',
-        img: 'img/presentes/spa.jpeg'
+        img: 'img/presentes/spa.webp'
     },
     {
         nome: '10 Hambúrgueres',
@@ -37,7 +37,7 @@ const presentes = [
         dataFim: new Date('2024-12-24T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Rochita Burguer',
-        img: 'img/presentes/burger.jpeg'
+        img: 'img/presentes/burger.webp'
     },
     {
         nome: '1 mês Netlix',
@@ -45,7 +45,7 @@ const presentes = [
         dataFim: new Date('2024-12-25T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Xofela e Aires',
-        img: 'img/presentes/netflix.jpeg'
+        img: 'img/presentes/netflix.webp'
     }, 
     {
         nome: '12GB Grátis',
@@ -53,7 +53,7 @@ const presentes = [
         dataFim: new Date('2024-12-25T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Supinha',
-        img: 'img/presentes/12g.jpeg'
+        img: 'img/presentes/12g.webp'
     },
     {
         nome: 'Conjunto Feminino',
@@ -61,7 +61,7 @@ const presentes = [
         dataFim: new Date('2024-12-26T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Zeana',
-        img: 'img/presentes/conjunto.jpeg'
+        img: 'img/presentes/conjunto.webp'
     },
     {
         nome: 'Jantar a 2 + Buquê',
@@ -69,7 +69,7 @@ const presentes = [
         dataFim: new Date('2024-12-27T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: DaWeddy',
-        img: 'img/presentes/encontro.jpeg'
+        img: 'img/presentes/encontro.webp'
     },
     {
         nome: 'Victoria’s Secret Kit',
@@ -77,7 +77,7 @@ const presentes = [
         dataFim: new Date('2024-12-28T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Milly Care Store',
-        img: 'img/presentes/kit.jpeg'
+        img: 'img/presentes/kit.webp'
     },
     {
         nome: 'Sessão Fotográfica',
@@ -85,7 +85,7 @@ const presentes = [
         dataFim: new Date('2024-12-29T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Black Productions',
-        img: 'img/presentes/foto.jpeg'
+        img: 'img/presentes/foto.webp'
     },  
 ];
 
