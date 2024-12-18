@@ -1,7 +1,7 @@
 const presentes = [
     {
         nome: 'Apple Airpods 3th G.',
-        dataInicio: new Date('2024-12-20T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-20T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: OD Onlivendas & Okenio M',
@@ -9,7 +9,7 @@ const presentes = [
     },
     {
         nome: 'Bolo de Natal',
-        dataInicio: new Date('2024-12-21T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-21T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Idelicious',
@@ -17,7 +17,7 @@ const presentes = [
     },
     {
         nome: 'Nike Dunk Low',
-        dataInicio: new Date('2024-12-22T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-22T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Geo Store',
@@ -25,7 +25,7 @@ const presentes = [
     },
     {
         nome: 'Dia de Spa',
-        dataInicio: new Date('2024-12-23T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-23T23:59:59+01:00'),
         disponivel: false,
         descricao: 'By: Txia Mi',
@@ -33,7 +33,7 @@ const presentes = [
     },
     {
         nome: '10 Hambúrgueres',
-        dataInicio: new Date('2024-12-24T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-24T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Rochita Burguer',
@@ -41,7 +41,7 @@ const presentes = [
     },
     {
         nome: '1 mês Netlix',
-        dataInicio: new Date('2024-12-25T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-25T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Xofela e Aires',
@@ -49,7 +49,7 @@ const presentes = [
     }, 
     {
         nome: '12GB Grátis',
-        dataInicio: new Date('2024-12-25T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-25T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Supinha',
@@ -65,7 +65,7 @@ const presentes = [
     },
     {
         nome: 'Jantar a 2 + Buquê',
-        dataInicio: new Date('2024-12-27T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-27T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: DaWeddy',
@@ -73,7 +73,7 @@ const presentes = [
     },
     {
         nome: 'Victoria’s Secret Kit',
-        dataInicio: new Date('2024-12-28T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-28T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Milly Care Store',
@@ -81,7 +81,7 @@ const presentes = [
     },
     {
         nome: 'Sessão Fotográfica',
-        dataInicio: new Date('2024-12-29T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-29T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Black Productions',
