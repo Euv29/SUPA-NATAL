@@ -57,7 +57,7 @@ const presentes = [
     },
     {
         nome: 'Conjunto Feminino',
-        dataInicio: new Date('2024-12-26T00:00:00+01:00'),
+        dataInicio: new Date('2024-12-18T00:00:00+01:00'),
         dataFim: new Date('2024-12-26T23:59:59+01:00'),
         disponivel: false,
         descricao: 'by: Zeana',
