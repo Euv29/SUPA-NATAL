@@ -104,16 +104,19 @@
                     <section class="flex flex-col gap-5">
                         <p>1 presente misterioso por dia para cada Supa participante</p>
                         <p>
-                            De <a id="supaLogo">20 à 29 de Dezembro </a>podes ganhar presentes misteriosos. Poderás reservar e entrar na lista da sorte. <br>
+                            De <a id="supaLogo">20 à 29 de Dezembro </a>podes ganhar presentes misteriosos. Poderás
+                            reservar e entrar na lista da sorte. <br>
                             Mas para vencer precisa cumprir com algumas regras.
                         </p>
                         <p>
                             <a id="supaLogo"><b>Regras:</b></a><br>
-                            <a id="supaLogo">1.</a> Seguir as páginas no Instagram (Att: Todas as páginas. Supa Serviços e das empresas parceiras)<br>
+                            <a id="supaLogo">1.</a> Seguir as páginas no Instagram (Att: Todas as páginas. Supa Serviços
+                            e das empresas parceiras)<br>
                             <a id="supaLogo">2.</a> Preencher o formulário.
                         </p>
                         <p>
-                            <a id="supaLogo"><b>Nota:</b></a> Os presentes digitais são válidos para toda parte do mundo. E Os presentes físicos apenas válidos em Luanda, Angola.
+                            <a id="supaLogo"><b>Nota:</b></a> Os presentes digitais são válidos para toda parte do
+                            mundo. E Os presentes físicos apenas válidos em Luanda, Angola.
                         </p>
                         <p>
                             <b id="supaLogo">Clique nos nomes a baixo para poder visitar as páginas e seguir:</b>
@@ -194,7 +197,59 @@
             </section>
         </footer>
     </div>
+    <script>
+        // Bloquear o clique com o botão direito do mouse e exibir uma mensagem
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            showMessage("Ei, espertinho o Supinha ta de olho, sem clique direito!");
+        });
 
+        // Função para exibir a mensagem no meio da tela
+        function showMessage(message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.textContent = message;
+            messageDiv.style.position = 'fixed';
+            messageDiv.style.top = '50%';
+            messageDiv.style.left = '50%';
+            messageDiv.style.transform = 'translate(-50%, -50%)';
+            messageDiv.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+            messageDiv.style.color = 'white';
+            messageDiv.style.padding = '20px';
+            messageDiv.style.borderRadius = '10px';
+            messageDiv.style.zIndex = '1000';
+            messageDiv.style.textAlign = 'center';
+            document.body.appendChild(messageDiv);
+
+            // Remover a mensagem após 3 segundos
+            setTimeout(() => {
+                document.body.removeChild(messageDiv);
+            }, 3000);
+        }
+
+        // Bloquear teclas de atalho comuns para inspeção
+        document.addEventListener('keydown', function(e) {
+            // F12
+            if (e.keyCode === 123) {
+                e.preventDefault();
+            }
+            // Ctrl+Shift+I
+            if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+                e.preventDefault();
+            }
+            // Ctrl+Shift+J
+            if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
+                e.preventDefault();
+            }
+            // Ctrl+U
+            if (e.ctrlKey && e.keyCode === 85) {
+                e.preventDefault();
+            }
+            // Ctrl+Shift+C
+            if (e.ctrlKey && e.shiftKey && e.keyCode === 67) {
+                e.preventDefault();
+            }
+        });
+    </script>
     <script>
         // Wait for 5 seconds before showing the main content
         setTimeout(() => {
